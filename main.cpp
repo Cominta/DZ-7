@@ -6,59 +6,109 @@ using namespace std;
 int main()
 {
 	// 1
-	// float money;
-	// float percentPerYear;
+	// int numbers[3];
 
-	// std::cout << "Enter your money: ";
-	// std::cin >> money;
+	// for (int i = 0; i < 3; i++)
+	// {
+	// 	std::cout << "Enter " << i + 1 << " number: ";
+	// 	std::cin >> numbers[i];
+	// }
 
-	// std::cout << "Percent per year: ";
-	// std::cin >> percentPerYear;
-
-	// std::cout << "\nMoney per month: " << money * ((percentPerYear / 100) / 12);
+	// std::cout << "Min: " << (numbers[0] < numbers[1] ? (numbers[0] < numbers[2] ? numbers[0] : numbers[2]) : (numbers[1] < numbers[2] ? numbers[1] : numbers[2]));
 
 	// 2
-	// int price;
-	// int money;
+	// int number;
 
-	// std::cout << "Enter money: ";
-	// std::cin >> money;
+	// std::cout << "Enter number: ";
+	// std::cin >> number;
 
-	// std::cout << "Enter price: ";
-	// std::cin >> price;
-
-	// std::cout << "Count: " << money / price << '\n';
-	// std::cout << "Change: " << money % price;
+	// std::cout << "Is number more than 0? answer: " << (number > 0 ? "yes" : (number == 0 ? "its 0" : "no"));
 
 	// 3
-	// int width;
-	// int length;
-	// int height;
+	// int a;
+	// int b;
+	// char op;
+	// char supportedOp[] {'+', '-', '/', '*', '%'};
 
-	// int N;
-	// int M;
-	// int R;
+	// std::cout << "Enter a: ";
+	// std::cin >> a;
 
-	// std::cout << "Enter width: ";
-	// std::cin >> width;
+	// std::cout << "Enter b: ";
+	// std::cin >> b;
 
-	// std::cout << "Enter length: ";
-	// std::cin >> length;
+	// std::cout << "\n";
 
-	// std::cout << "Enter height: ";
-	// std::cin >> height;
+	// for (int i = 0; i < 5; i++)
+	// {
+	// 	std::cout << i + 1 << ". " << supportedOp[i] << "\n";
+	// }
 
-	// std::cout << "Enter N: ";
-	// std::cin >> N;
+	// std::cout << "\nEnter op: ";
+	// std::cin >> op;
 
-	// std::cout << "Enter M: ";
-	// std::cin >> M;
+	// std::cout << "\n";
 
-	// std::cout << "Enter R: ";
-	// std::cin >> R;
+	// switch (op)
+	// {
+	// 	case '+':
+	// 		std::cout << "Result: " << a + b;
+	// 		break;
 
-	// int S = 2 * (width * height + height * length);
-	// int liters = S - (S / 100 * M) * N;
-	// std::cout << "Liters: " << liters;
-	// std::cout << "Price: " << liters * R;
+	// 	case '-':
+	// 		std::cout << "Result: " << a - b;
+	// 		break;
+
+	// 	case '*':
+	// 		std::cout << "Result: " << a * b;
+	// 		break;
+
+	// 	case '/':
+	// 		std::cout << "Result: " << a / b;
+	// 		break;
+
+	// 	case '%':
+	// 		std::cout << "Result: " << a % b;
+	// 		break;
+	// }
+
+	// 4
+	// char character;
+	// char supportedCharacters[] {'.', ',', '?', '!'};
+
+	// std::cout << "Enter data: ";
+	// std::cin >> character;
+
+	// for (int i = 0; i < 4; i++)
+	// {
+	// 	if (character == supportedCharacters[i])
+	// 	{
+	// 		std::cout << "its snak prepinanya"; 
+	// 	}
+	// }
+
+	// if (isdigit(character))
+	// {
+	// 	std::cout << "its number";
+	// }
+	
+	// else 
+	// {
+	// 	std::cout << "\nits symbol";
+	// }
+
+	// 5
+	// int num;
+
+	// std::cout << "Enter number: ";
+	// std::cin >> num;
+
+	// std::cout << std::boolalpha << "Multiple to 3, 5, 7: " << (num % 7 == 0 && num % 5 == 0 && num % 3 == 0); 
+
+	// 6
+	// std::string num;
+
+	// std::cout << "Enter num: ";
+	// std::cin >> num;
+
+	// std::cout << "Count of numbers: " << num.size();
 }
