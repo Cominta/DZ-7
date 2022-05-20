@@ -1,65 +1,64 @@
 #include <iostream>
-#include <math.h>
+#include <time.h>
+
+using namespace std;
 
 int main()
 {
-    // 1
-    // float a;
-    // float b;
+	// 1
+	// float money;
+	// float percentPerYear;
 
-    // std::cout << "\nax + b = 0\n\n";
+	// std::cout << "Enter your money: ";
+	// std::cin >> money;
 
-    // std::cout << "Enter a: ";
-    // std::cin >> a;
+	// std::cout << "Percent per year: ";
+	// std::cin >> percentPerYear;
 
-    // std::cout << "Enter b: ";
-    // std::cin >> b;
+	// std::cout << "\nMoney per month: " << money * ((percentPerYear / 100) / 12);
 
-    // std::cout << "x = " << -(b / a) << "\n";
+	// 2
+	// int price;
+	// int money;
 
-    // 2
-    // int num;
-    // int degree;
+	// std::cout << "Enter money: ";
+	// std::cin >> money;
 
-    // std::cout << "\nEnter number: ";
-    // std::cin >> num;
+	// std::cout << "Enter price: ";
+	// std::cin >> price;
 
-    // std::cout << "Enter degree: ";
-    // std::cin >> degree;
+	// std::cout << "Count: " << money / price << '\n';
+	// std::cout << "Change: " << money % price;
 
-    // std::cout << "\nResult: " << pow(num, degree) << "\n";
+	// 3
+	// int width;
+	// int length;
+	// int height;
 
-    // 3
-    // int degrees;
+	// int N;
+	// int M;
+	// int R;
 
-    // std::cout << "\nEnter degrees: ";
-    // std::cin >> degrees;
+	// std::cout << "Enter width: ";
+	// std::cin >> width;
 
-    // std::cout << "\nFahrenheit: " << degrees * 1.8000 + 32 << "\n";
-    // std::cout << "Kelvin: " << degrees + 273.15 << "\n";
-    // std::cout << "Reaumur: " << degrees * 0.8 << "\n";
-    // std::cout << "Delilya: " << degrees * 1.5000 - 100 << "\n";
+	// std::cout << "Enter length: ";
+	// std::cin >> length;
 
-    // 4
-    int a = 1;
-    int b = 2;
+	// std::cout << "Enter height: ";
+	// std::cin >> height;
 
-    std::cout << "\n1.1. a = " << a << ", b = " << b << "\n";
+	// std::cout << "Enter N: ";
+	// std::cin >> N;
 
-    int c = a;
-    a = b; 
-    b = c;
+	// std::cout << "Enter M: ";
+	// std::cin >> M;
 
-    std::cout << "1.2. a = " << a << ", b = " << b << "\n\n";
+	// std::cout << "Enter R: ";
+	// std::cin >> R;
 
-    a = 2;
-    b = 3;
-
-    std::cout << "2.1. a = " << a << ", b = " << b << "\n";
-    
-    std::swap(a, b);
-
-    std::cout << "2.2. a = " << a << ", b = " << b << "\n\n";
-
-    return 0;
+	// int S = 2 * (width * height + height * length);
+	// int liters = S - (S / 100 * M) * N;
+	// std::cout << "Liters: " << liters;
+	// std::cout << "Price: " << liters * R;
 }
